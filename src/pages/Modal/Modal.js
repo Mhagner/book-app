@@ -1,5 +1,5 @@
 import history from '../../history'
-import BookDetail from '../BookDetail/BookDetail';
+import BookDetail from '../../components/BookDetail/BookDetail';
 import { useBooks } from '../../hooks/useBooks'
 import CloseIcon from '../../assets/images/close.svg'
 

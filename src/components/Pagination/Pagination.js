@@ -2,7 +2,12 @@ import './Pagination.css';
 import ArrowLeft from '../../assets/images/arrow-left.svg'
 import ArrowRight from '../../assets/images/arrow-right.svg'
 
-const Pagination = ({ handlePreviousPage, handleNextPage, totalPages, currentPage }) => {
+const Pagination = ({ 
+    handlePreviousPage, 
+    handleNextPage, 
+    totalPages, 
+    currentPage 
+}) => {
     return (
         <div data-testid="pagination" className="pagination__container">
             <button
