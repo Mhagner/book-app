@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookCard component Componente should render 1`] = `
+<div
+  class="book-card__container"
+  data-testid="book-card"
+>
+  <div
+    class="book-card__image-content"
+  >
+    <img
+      alt="alt"
+      class="book-card__image"
+      src="img/image.svg"
+    />
+  </div>
+  <div
+    class="book-card__book-content"
+  >
+    <div>
+      <h1
+        class="book-card__title"
+      >
+        title
+      </h1>
+      <div
+        class="book-card__authors"
+      >
+        <p
+          class="book-card__author"
+        >
+          Mahilson
+        </p>
+        <p
+          class="book-card__author"
+        >
+          Hagnner
+        </p>
+      </div>
+    </div>
+    <div
+      class="book-card__description"
+    >
+      <p>
+        200
+         páginas
+      </p>
+      <p>
+        Editora test
+      </p>
+      <p>
+        Publicado em 
+        2021
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Componente should render 1`] = `
+<div
+  class="header"
+  data-testid="header"
+>
+  <div
+    class="logo__container"
+    data-testid="logo"
+  >
+    <img
+      alt="ioasys"
+      class="logo__image"
+      src="logo-dark.png"
+    />
+    <span
+      class="logo__text "
+    >
+      Books
+    </span>
+  </div>
+  <div
+    class="header__profile"
+  >
+    <button>
+      <img
+        alt="logout"
+        class="header__logout-icon"
+        src="logout.svg"
+      />
+    </button>
+  </div>
+</div>
+`;

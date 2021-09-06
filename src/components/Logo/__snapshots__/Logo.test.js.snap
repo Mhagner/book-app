@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component Componente should render logo dark 1`] = `
+<div
+  class="logo__container"
+  data-testid="logo"
+>
+  <img
+    alt="ioasys"
+    class="logo__image"
+    src="logo-dark.png"
+  />
+  <span
+    class="logo__text "
+  >
+    Books
+  </span>
+</div>
+`;
+
+exports[`Logo component Componente should render logo light default 1`] = `
+<div
+  class="logo__container"
+  data-testid="logo"
+>
+  <img
+    alt="ioasys"
+    class="logo__image"
+    src="logo.png"
+  />
+  <span
+    class="logo__text  logo__text--light"
+  >
+    Books
+  </span>
+</div>
+`;

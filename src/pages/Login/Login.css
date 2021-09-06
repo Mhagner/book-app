@@ -1,0 +1,15 @@
+.container-login {
+    background-image: url(../../assets/images/bg-login-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (min-width: 1026px) {
+    .container-login {
+        background-image: url(../../assets/images/bg-login.png); 
+    }
+}

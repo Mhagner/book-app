@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthForm component Componente should render 1`] = `
+<div
+  class="auth-form__container"
+  data-testid="auth-form"
+>
+  <div
+    class="logo__container"
+    data-testid="logo"
+  >
+    <img
+      alt="ioasys"
+      class="logo__image"
+      src="logo.png"
+    />
+    <span
+      class="logo__text  logo__text--light"
+    >
+      Books
+    </span>
+  </div>
+  <form
+    action="#"
+    class="auth-form__form"
+  >
+    <div
+      class="auth-form__box-field"
+    >
+      <label>
+        Email
+      </label>
+      <input
+        class="auth-form__field"
+        data-testid="auth-input-email"
+        name="email"
+        value=""
+      />
+    </div>
+    <div
+      class="auth-form__box-field"
+    >
+      <label>
+        Senha
+      </label>
+      <input
+        class="auth-form__field"
+        data-testid="auth-input-password"
+        name="password"
+        type="password"
+        value=""
+      />
+      <button
+        class="auth-form__button"
+        data-testid="auth-button-submit"
+        type="submit"
+      >
+        Entrar
+      </button>
+    </div>
+  </form>
+</div>
+`;

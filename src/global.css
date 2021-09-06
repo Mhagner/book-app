@@ -1,0 +1,79 @@
+/* ========= Fonts ========= */
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 300;
+    font-size: normal;
+    src: local('Heebo') url(./fonts/Heebo-Light.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: normal;
+    src: local('Heebo') url(./fonts/Heebo-Regular.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: normal;
+    src: local('Heebo') url(./fonts/Heebo-Medium.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 600;
+    font-size: normal;
+    src: local('Heebo') url(./fonts/Heebo-SemiBold.ttf) format('opentype');
+}
+@font-face {
+    font-family: 'Heebo';
+    font-weight: 600;
+    font-size: normal;
+    src: local('Heebo') url(./fonts/Heebo-Bold.ttf) format('opentype');
+}
+/* ========= Fonts ========= */
+
+:root {
+    --color-primary: #AB2680;
+    --color-primary-light: #B22E6F;
+
+    --color-secondary: #999999;
+    
+    --grey-dark-1: #333333;
+    --color-white: #ffffff;
+}
+
+/* ========= BASE CSS ======= */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    line-height: 2rem;
+}
+
+.ReactModal__Overlay--after-open {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 1026px) {
+    .pagination__container,
+    .books__content,
+    .header {
+        max-width: 1130px;
+        margin: 0 auto;
+    }
+}
+
+/* ========= BASE CSS ======= */

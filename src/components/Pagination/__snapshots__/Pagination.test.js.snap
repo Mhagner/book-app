@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component Componente should render 1`] = `
+<div
+  class="pagination__container"
+  data-testid="pagination"
+>
+  <button
+    class="pagination__button"
+  >
+    <img
+      alt="arrow left"
+      class="pagination__arrow-left"
+      src="arrow-left.svg"
+    />
+  </button>
+  <p
+    class="pagination__count"
+  >
+    Página
+    <strong />
+     de
+    <strong>
+      0
+    </strong>
+  </p>
+  <button
+    class="pagination__button"
+  >
+    <img
+      alt="arrow right"
+      class="pagination__arrow-right"
+      src="arrow-right.svg"
+    />
+  </button>
+</div>
+`;
+
+exports[`Pagination component Componente should render pagination current 5 and total page 50 1`] = `
+<div
+  class="pagination__container"
+  data-testid="pagination"
+>
+  <button
+    class="pagination__button"
+  >
+    <img
+      alt="arrow left"
+      class="pagination__arrow-left"
+      src="arrow-left.svg"
+    />
+  </button>
+  <p
+    class="pagination__count"
+  >
+    Página
+    <strong>
+      5
+    </strong>
+     de
+    <strong>
+      50
+    </strong>
+  </p>
+  <button
+    class="pagination__button"
+  >
+    <img
+      alt="arrow right"
+      class="pagination__arrow-right"
+      src="arrow-right.svg"
+    />
+  </button>
+</div>
+`;
